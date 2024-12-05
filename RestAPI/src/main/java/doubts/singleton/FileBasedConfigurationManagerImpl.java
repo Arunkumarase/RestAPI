@@ -13,7 +13,7 @@ public class FileBasedConfigurationManagerImpl extends FileBasedConfigurationMan
     }
 
     public String getConfiguration(String key) {
-        properties.get(key);
+        return properties.get(key);
     }
     public void setConfiguration(String key, String value) {
         properties.put(key,value);

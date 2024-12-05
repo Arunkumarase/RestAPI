@@ -1,6 +1,7 @@
 package doubts.connectionpool;
 
 public interface ConnectionPool {
+
     void initializePool();
 
     DatabaseConnection getConnection();
@@ -10,4 +11,5 @@ public interface ConnectionPool {
     int getAvailableConnectionsCount();
 
     int getTotalConnectionsCount();
+
 }
